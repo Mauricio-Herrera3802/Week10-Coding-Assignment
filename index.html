@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Table</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+
+<!-- Create a div to place the table -->
+  <div>
+    <h2>Order Food item Table</h2>
+    <p>Enter the name of the Item you would like to Order and the quantity</p>
+   
+    <table id="orderTable" class="table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table rows will be added here -->
+      </tbody>
+    </table>
+
+  <!-- button to add items to the table-->
+    <button id="addBtn" class="btn btn-primary">Add Item</button>
+  </div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+<script src="index.js"></script>
+</body>
+</html>
